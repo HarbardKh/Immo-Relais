@@ -1,0 +1,135 @@
+{
+  "paris": {
+    "name": "Paris",
+    "title": "Vendez votre bien immobilier à Paris",
+    "subtitle": "Expertise parisienne et accompagnement personnalisé pour votre projet de vente",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1920&q=80"
+  },
+  "lyon": {
+    "name": "Lyon",
+    "title": "Vendez votre bien immobilier à Lyon",
+    "subtitle": "Conseil expert et réseau local pour valoriser votre patrimoine immobilier",
+    "imageUrl": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1920&q=80"
+  },
+  "marseille": {
+    "name": "Marseille",
+    "title": "Vendez votre bien immobilier à Marseille",
+    "subtitle": "Expertise locale et accompagnement personnalisé pour votre projet de vente",
+    "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1920&q=80"
+  },
+  "toulouse": {
+    "name": "Toulouse",
+    "title": "Vendez votre bien immobilier à Toulouse",
+    "subtitle": "Conseil expert et réseau local pour valoriser votre patrimoine immobilier",
+    "imageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1920&q=80"
+  },
+  "nice": {
+    "name": "Nice",
+    "title": "Vendez votre bien immobilier à Nice",
+    "subtitle": "Accompagnement professionnel pour une vente réussie sur la Côte d'Azur",
+    "imageUrl": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1920&q=80"
+  },
+  "nantes": {
+    "name": "Nantes",
+    "title": "Vendez votre bien immobilier à Nantes",
+    "subtitle": "Expertise locale et accompagnement personnalisé pour votre projet de vente",
+    "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1920&q=80"
+  },
+  "strasbourg": {
+    "name": "Strasbourg",
+    "title": "Vendez votre bien immobilier à Strasbourg",
+    "subtitle": "Conseil expert et réseau local pour valoriser votre patrimoine immobilier",
+    "imageUrl": "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=1920&q=80"
+  },
+  "montpellier": {
+    "name": "Montpellier",
+    "title": "Vendez votre bien immobilier à Montpellier",
+    "subtitle": "Accompagnement professionnel pour une vente réussie en Occitanie",
+    "imageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1920&q=80"
+  },
+  "bordeaux": {
+    "name": "Bordeaux",
+    "title": "Vendez votre bien immobilier à Bordeaux",
+    "subtitle": "Accompagnement professionnel pour une vente réussie dans la région bordelaise",
+    "imageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1920&q=80"
+  },
+  "lille": {
+    "name": "Lille",
+    "title": "Vendez votre bien immobilier à Lille",
+    "subtitle": "Expertise locale et accompagnement personnalisé pour votre projet de vente",
+    "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1920&q=80"
+  },
+  "rennes": {
+    "name": "Rennes",
+    "title": "Vendez votre bien immobilier à Rennes",
+    "subtitle": "Conseil expert et réseau local pour valoriser votre patrimoine immobilier",
+    "imageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1920&q=80"
+  },
+  "reims": {
+    "name": "Reims",
+    "title": "Vendez votre bien immobilier à Reims",
+    "subtitle": "Accompagnement professionnel pour une vente réussie en Champagne",
+    "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1920&q=80"
+  },
+  "saint-etienne": {
+    "name": "Saint-Étienne",
+    "title": "Vendez votre bien immobilier à Saint-Étienne",
+    "subtitle": "Expertise locale et accompagnement personnalisé pour votre projet de vente",
+    "imageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1920&q=80"
+  },
+  "toulon": {
+    "name": "Toulon",
+    "title": "Vendez votre bien immobilier à Toulon",
+    "subtitle": "Conseil expert et réseau local pour valoriser votre patrimoine immobilier",
+    "imageUrl": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1920&q=80"
+  },
+  "le-havre": {
+    "name": "Le Havre",
+    "title": "Vendez votre bien immobilier au Havre",
+    "subtitle": "Accompagnement professionnel pour une vente réussie en Normandie",
+    "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1920&q=80"
+  },
+  "grenoble": {
+    "name": "Grenoble",
+    "title": "Vendez votre bien immobilier à Grenoble",
+    "subtitle": "Expertise locale et accompagnement personnalisé pour votre projet de vente",
+    "imageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1920&q=80"
+  },
+  "dijon": {
+    "name": "Dijon",
+    "title": "Vendez votre bien immobilier à Dijon",
+    "subtitle": "Conseil expert et réseau local pour valoriser votre patrimoine immobilier",
+    "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1920&q=80"
+  },
+  "angers": {
+    "name": "Angers",
+    "title": "Vendez votre bien immobilier à Angers",
+    "subtitle": "Accompagnement professionnel pour une vente réussie en Pays de la Loire",
+    "imageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1920&q=80"
+  },
+  "nimes": {
+    "name": "Nîmes",
+    "title": "Vendez votre bien immobilier à Nîmes",
+    "subtitle": "Expertise locale et accompagnement personnalisé pour votre projet de vente",
+    "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1920&q=80"
+  },
+  "villeurbanne": {
+    "name": "Villeurbanne",
+    "title": "Vendez votre bien immobilier à Villeurbanne",
+    "subtitle": "Conseil expert et réseau local pour valoriser votre patrimoine immobilier",
+    "imageUrl": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1920&q=80"
+  },
+  "saint-denis": {
+    "name": "Saint-Denis",
+    "title": "Vendez votre bien immobilier à Saint-Denis",
+    "subtitle": "Accompagnement professionnel pour une vente réussie en Île-de-France",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1920&q=80"
+  },
+  "default": {
+    "name": "France",
+    "title": "Vendez ou achetez votre bien immobilier",
+    "subtitle": "Expertise immobilière et accompagnement personnalisé partout en France",
+    "imageUrl": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1920&q=80"
+  }
+}
+
