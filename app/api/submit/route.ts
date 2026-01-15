@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { randomUUID } from 'crypto'
 
 // Rate limiting simple basé sur IP (en mémoire pour MVP)
 // En production, utilisez Redis ou Vercel Edge Config
@@ -277,7 +278,7 @@ export async function POST(request: NextRequest) {
 
 // Route GET pour générer un token CSRF
 export async function GET() {
-  const token = crypto.randomUUID()
+  const token = randomUUID()
   
   const response = NextResponse.json({ csrfToken: token })
   
