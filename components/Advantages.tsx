@@ -3,7 +3,7 @@
 import { useState } from 'react'
 
 export default function Advantages() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null)
+  const [openIndices, setOpenIndices] = useState<Set<number>>(new Set())
 
   const advantages = [
     {
@@ -38,8 +38,17 @@ export default function Advantages() {
     }
   ]
 
-  const toggleCard = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index)
+  const toggleCard = (index: number, e: React.MouseEvent) => {
+    e.stopPropagation()
+    setOpenIndices(prev => {
+      const newSet = new Set(prev)
+      if (newSet.has(index)) {
+        newSet.delete(index)
+      } else {
+        newSet.add(index)
+      }
+      return newSet
+    })
   }
 
   return (
@@ -50,12 +59,12 @@ export default function Advantages() {
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
           {advantages.map((advantage, index) => {
-            const isOpen = openIndex === index
+            const isOpen = openIndices.has(index)
             return (
               <div 
                 key={index}
                 className="card bg-white border-l-4 border-orange p-4 md:p-6 cursor-pointer hover:shadow-xl transition-all duration-200 flex flex-col items-center text-center min-h-[140px] md:min-h-[160px]"
-                onClick={() => toggleCard(index)}
+                onClick={(e) => toggleCard(index, e)}
               >
                 <div className="w-full flex flex-col items-center">
                   <div className="text-3xl md:text-5xl mb-3">{advantage.icon}</div>
