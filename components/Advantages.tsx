@@ -71,15 +71,13 @@ export default function Advantages() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </div>
-                <div 
-                  className={`overflow-hidden transition-all duration-300 ease-in-out w-full ${
-                    isOpen ? 'max-h-96 opacity-100 mt-3' : 'max-h-0 opacity-0'
-                  }`}
-                >
-                  <p className="text-xs md:text-base text-gray-600 leading-relaxed pt-2 text-center">
-                    {advantage.description}
-                  </p>
-                </div>
+                {isOpen && (
+                  <div className="w-full mt-3">
+                    <p className="text-xs md:text-base text-gray-600 leading-relaxed pt-2 text-center">
+                      {advantage.description}
+                    </p>
+                  </div>
+                )}
               </div>
             )
           })}
