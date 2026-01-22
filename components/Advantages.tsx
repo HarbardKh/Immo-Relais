@@ -57,24 +57,24 @@ export default function Advantages() {
         <h2 className="text-2xl md:text-4xl font-bold text-center text-marine mb-6 md:mb-12">
           Pourquoi nous choisir ?
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 items-start">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 items-start">
           {advantages.map((advantage, index) => {
             const isOpen = openIndices.has(index)
             return (
               <div 
                 key={index}
-                className={`card bg-white border-l-4 border-orange p-5 md:p-6 cursor-pointer hover:shadow-xl transition-all duration-200 flex flex-col items-center text-center ${
-                  isOpen ? 'h-[240px] md:h-[320px]' : 'min-h-[120px] md:min-h-[160px]'
+                className={`card bg-white border-l-4 border-orange p-4 md:p-6 cursor-pointer hover:shadow-xl transition-all duration-200 flex flex-col items-center text-center ${
+                  isOpen ? 'h-[340px] md:h-[320px]' : 'min-h-[110px] md:min-h-[160px]'
                 }`}
                 onClick={(e) => toggleCard(index, e)}
               >
                 <div className={`w-full flex flex-col items-center ${isOpen ? 'justify-center h-full' : ''}`}>
-                  <div className="text-4xl md:text-5xl mb-3">{advantage.icon}</div>
-                  <h3 className="text-base md:text-xl font-bold text-marine leading-tight px-2 mb-2">
+                  <div className="text-3xl md:text-5xl mb-2">{advantage.icon}</div>
+                  <h3 className="text-[13px] md:text-xl font-bold text-marine leading-tight px-1 mb-1">
                     {advantage.title}
                   </h3>
                   <svg 
-                    className={`w-5 h-5 text-orange transition-transform duration-200 ${isOpen ? 'rotate-180 mb-1' : ''}`}
+                    className={`w-4 h-4 md:w-5 md:h-5 text-orange transition-transform duration-200 ${isOpen ? 'rotate-180 mb-1' : ''}`}
                     fill="none" 
                     stroke="currentColor" 
                     viewBox="0 0 24 24"
@@ -82,8 +82,8 @@ export default function Advantages() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                   {isOpen && (
-                    <div className="w-full mt-2 px-2">
-                      <p className="text-sm md:text-base text-gray-600 leading-relaxed text-center">
+                    <div className="w-full mt-1 px-1">
+                      <p className="text-[11px] leading-[1.4] md:text-base text-gray-600 md:leading-relaxed text-center">
                         {advantage.description}
                       </p>
                     </div>
