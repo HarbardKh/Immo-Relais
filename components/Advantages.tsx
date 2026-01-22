@@ -63,12 +63,12 @@ export default function Advantages() {
             return (
               <div 
                 key={index}
-                className={`card bg-white border-l-4 border-orange py-1.5 px-2 md:p-6 cursor-pointer hover:shadow-xl transition-all duration-200 flex flex-col items-center justify-center text-center ${
-                  isOpen ? 'h-[240px] md:h-[320px]' : 'h-[75px] md:min-h-[160px]'
-                }`}
+                className={`card bg-white border-l-4 border-orange py-1.5 px-2 md:p-6 cursor-pointer hover:shadow-xl transition-all duration-200 flex flex-col items-center text-center ${
+                  isOpen ? 'h-auto md:h-[320px]' : 'h-[75px] md:min-h-[160px]'
+                } ${!isOpen ? 'justify-center' : ''}`}
                 onClick={(e) => toggleCard(index, e)}
               >
-                <div className="w-full flex flex-col items-center justify-center">
+                <div className="w-full flex flex-col items-center">
                   <div className="text-2xl md:text-5xl leading-none">{advantage.icon}</div>
                   <h3 className="text-[12px] md:text-xl font-bold text-marine leading-tight px-1 my-0.5">
                     {advantage.title}
