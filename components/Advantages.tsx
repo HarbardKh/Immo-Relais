@@ -74,7 +74,7 @@ export default function Advantages() {
                     {advantage.title}
                   </h3>
                   <svg 
-                    className={`w-4 h-4 md:w-5 md:h-5 text-orange transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+                    className={`w-4 h-4 md:w-5 md:h-5 text-orange transition-transform duration-200 ${isOpen ? 'rotate-180 mb-1' : ''}`}
                     fill="none" 
                     stroke="currentColor" 
                     viewBox="0 0 24 24"
@@ -82,8 +82,8 @@ export default function Advantages() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                   {isOpen && (
-                    <div className="w-full mt-3">
-                      <p className="text-xs md:text-base text-gray-600 leading-relaxed pt-2 text-center">
+                    <div className="w-full mt-1 px-2">
+                      <p className="text-xs md:text-base text-gray-600 leading-relaxed text-center">
                         {advantage.description}
                       </p>
                     </div>
