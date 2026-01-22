@@ -63,14 +63,14 @@ export default function Advantages() {
             return (
               <div 
                 key={index}
-                className={`card bg-white border-l-4 border-orange p-2 md:p-6 cursor-pointer hover:shadow-xl transition-all duration-200 flex flex-col items-center justify-center text-center ${
-                  isOpen ? 'h-[260px] md:h-[320px]' : 'h-[85px] md:min-h-[160px]'
+                className={`card bg-white border-l-4 border-orange py-1.5 px-2 md:p-6 cursor-pointer hover:shadow-xl transition-all duration-200 flex flex-col items-center justify-center text-center ${
+                  isOpen ? 'h-[240px] md:h-[320px]' : 'h-[75px] md:min-h-[160px]'
                 }`}
                 onClick={(e) => toggleCard(index, e)}
               >
                 <div className="w-full flex flex-col items-center justify-center">
-                  <div className="text-2xl md:text-5xl mb-0.5">{advantage.icon}</div>
-                  <h3 className="text-[12px] md:text-xl font-bold text-marine leading-tight px-1 mb-0.5">
+                  <div className="text-2xl md:text-5xl leading-none">{advantage.icon}</div>
+                  <h3 className="text-[12px] md:text-xl font-bold text-marine leading-tight px-1 my-0.5">
                     {advantage.title}
                   </h3>
                   <svg 
@@ -82,7 +82,7 @@ export default function Advantages() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                   {isOpen && (
-                    <div className="w-full mt-1.5">
+                    <div className="w-full mt-1">
                       <p className="text-[11px] leading-[1.3] md:text-base text-gray-600 md:leading-relaxed text-center">
                         {advantage.description}
                       </p>
