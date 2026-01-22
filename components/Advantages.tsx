@@ -63,8 +63,8 @@ export default function Advantages() {
             return (
               <div 
                 key={index}
-                className={`card bg-white border-l-4 border-orange cursor-pointer hover:shadow-xl transition-all duration-200 flex flex-col items-center text-center ${
-                  isOpen ? 'h-[300px] md:h-[320px] py-2 px-2 md:p-6' : 'h-[85px] md:min-h-[160px] py-3 px-2 md:p-6 justify-center'
+                className={`card bg-white border-l-4 border-orange cursor-pointer hover:shadow-xl transition-all duration-200 flex flex-col items-center text-center justify-center ${
+                  isOpen ? 'h-[300px] md:h-[320px] py-2 px-2 md:p-6' : 'h-[85px] md:min-h-[160px] py-3 px-2 md:p-6'
                 }`}
                 onClick={(e) => toggleCard(index, e)}
               >
