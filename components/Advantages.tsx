@@ -35,22 +35,24 @@ export default function Advantages() {
   ]
 
   return (
-    <section className="py-16 px-4 bg-gray-50">
+    <section className="py-8 md:py-16 px-4 bg-gray-50">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-marine mb-12">
+        <h2 className="text-2xl md:text-4xl font-bold text-center text-marine mb-6 md:mb-12">
           Pourquoi nous choisir ?
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
           {advantages.map((advantage, index) => (
             <div 
               key={index}
-              className="card bg-white border-l-4 border-orange"
+              className="card bg-white border-l-4 border-orange p-4 md:p-6"
             >
-              <div className="text-4xl mb-4">{advantage.icon}</div>
-              <h3 className="text-xl font-bold text-marine mb-2">
-                {advantage.title}
-              </h3>
-              <p className="text-gray-600">
+              <div className="flex items-start gap-3 mb-2 md:mb-4">
+                <div className="text-2xl md:text-4xl flex-shrink-0">{advantage.icon}</div>
+                <h3 className="text-sm md:text-xl font-bold text-marine leading-tight">
+                  {advantage.title}
+                </h3>
+              </div>
+              <p className="text-xs md:text-base text-gray-600 leading-relaxed">
                 {advantage.description}
               </p>
             </div>
