@@ -7,12 +7,12 @@ export default function Advantages() {
 
   const advantages = [
     {
-      title: "Le 1er Réseau de Mandataires Immobiliers",
+      title: "1er Réseau immobilier Français",
       description: "IAD est le leader français en nombre d'agents et en chiffre d'affaires. Cette puissance de réseau maximise vos chances de vendre rapidement ou de trouver le bien idéal !",
       icon: "🏆"
     },
     {
-      title: "Agents Locaux Experts",
+      title: "Équipe d'agents locaux expert",
       description: "Nous vous mettons en relation avec des agents immobiliers certifiés qui connaissent parfaitement votre marché local",
       icon: "📍"
     },
@@ -54,33 +54,29 @@ export default function Advantages() {
             return (
               <div 
                 key={index}
-                className="card bg-white border-l-4 border-orange p-4 md:p-6 cursor-pointer hover:shadow-xl transition-all duration-200"
+                className="card bg-white border-l-4 border-orange p-4 md:p-6 cursor-pointer hover:shadow-xl transition-all duration-200 flex flex-col items-center text-center min-h-[140px] md:min-h-[160px]"
                 onClick={() => toggleCard(index)}
               >
-                <div className="flex items-start gap-3">
-                  <div className="text-2xl md:text-4xl flex-shrink-0">{advantage.icon}</div>
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-start justify-between gap-2">
-                      <h3 className="text-sm md:text-xl font-bold text-marine leading-tight flex-1">
-                        {advantage.title}
-                      </h3>
-                      <svg 
-                        className={`w-4 h-4 md:w-5 md:h-5 text-orange flex-shrink-0 mt-1 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
-                        fill="none" 
-                        stroke="currentColor" 
-                        viewBox="0 0 24 24"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                      </svg>
-                    </div>
-                  </div>
+                <div className="w-full flex flex-col items-center">
+                  <div className="text-3xl md:text-5xl mb-3">{advantage.icon}</div>
+                  <h3 className="text-sm md:text-xl font-bold text-marine leading-tight px-2 mb-2">
+                    {advantage.title}
+                  </h3>
+                  <svg 
+                    className={`w-4 h-4 md:w-5 md:h-5 text-orange transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
                 </div>
                 <div 
-                  className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                  className={`overflow-hidden transition-all duration-300 ease-in-out w-full ${
                     isOpen ? 'max-h-96 opacity-100 mt-3' : 'max-h-0 opacity-0'
                   }`}
                 >
-                  <p className="text-xs md:text-base text-gray-600 leading-relaxed pt-2">
+                  <p className="text-xs md:text-base text-gray-600 leading-relaxed pt-2 text-center">
                     {advantage.description}
                   </p>
                 </div>
