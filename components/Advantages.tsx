@@ -64,7 +64,7 @@ export default function Advantages() {
               <div 
                 key={index}
                 className={`card bg-white border-l-4 border-orange p-4 md:p-6 cursor-pointer hover:shadow-xl transition-all duration-200 flex flex-col items-center text-center ${
-                  isOpen ? 'min-h-[240px] md:min-h-[280px]' : 'min-h-[140px] md:min-h-[160px]'
+                  isOpen ? 'h-[240px] md:h-[280px]' : 'min-h-[140px] md:min-h-[160px]'
                 }`}
                 onClick={(e) => toggleCard(index, e)}
               >
