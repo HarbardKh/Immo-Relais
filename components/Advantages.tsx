@@ -57,16 +57,16 @@ export default function Advantages() {
         <h2 className="text-2xl md:text-4xl font-bold text-center text-marine mb-6 md:mb-12">
           Pourquoi nous choisir ?
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 items-start">
           {advantages.map((advantage, index) => {
             const isOpen = openIndices.has(index)
             return (
               <div 
                 key={index}
-                className="card bg-white border-l-4 border-orange p-4 md:p-6 cursor-pointer hover:shadow-xl transition-all duration-200 flex flex-col items-center text-center min-h-[140px] md:min-h-[160px]"
+                className="card bg-white border-l-4 border-orange p-4 md:p-6 cursor-pointer hover:shadow-xl transition-all duration-200 flex flex-col items-center text-center"
                 onClick={(e) => toggleCard(index, e)}
               >
-                <div className="w-full flex flex-col items-center">
+                <div className="w-full flex flex-col items-center" style={{ minHeight: isOpen ? 'auto' : '140px' }}>
                   <div className="text-3xl md:text-5xl mb-3">{advantage.icon}</div>
                   <h3 className="text-sm md:text-xl font-bold text-marine leading-tight px-2 mb-2">
                     {advantage.title}
