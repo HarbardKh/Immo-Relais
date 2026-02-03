@@ -27,7 +27,7 @@ export default function TrustSection() {
             <div className="text-4xl mb-4">🏆</div>
             <h3 className="text-2xl font-bold mb-4">Le Réseau IAD</h3>
             <p className="text-gray-200 leading-relaxed">
-              <strong className="text-orange">IAD est le 1er réseau de mandataires immobiliers français</strong> 
+              <strong className="text-orange">IAD est le 1er réseau de mandataires immobiliers français</strong>{' '}
               en nombre d'agents et en chiffre d'affaires. Cette force de réseau est un atout majeur 
               pour réussir votre vente ou trouver le bien recherché !
             </p>
