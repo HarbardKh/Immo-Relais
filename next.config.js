@@ -1,14 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  eslint: {
-    // Ne pas bloquer le build en production si des erreurs ESLint mineures
-    ignoreDuringBuilds: false,
-  },
-  typescript: {
-    // Ne pas bloquer le build en production si des erreurs TypeScript mineures
-    ignoreBuildErrors: false,
-  },
   async headers() {
     return [
       {
