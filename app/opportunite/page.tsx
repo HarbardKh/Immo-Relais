@@ -153,6 +153,16 @@ export default function OpportunitePage() {
               </div>
             ))}
           </div>
+          <div className="text-center mt-12">
+            <a
+              href={ctaLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-lg md:text-xl px-8 md:px-12 py-4 inline-block"
+            >
+              Rejoindre l&apos;équipe gratuitement
+            </a>
+          </div>
         </div>
       </section>
 
@@ -197,7 +207,28 @@ export default function OpportunitePage() {
         </div>
       </section>
 
-      {/* Section 5 : FAQ */}
+      {/* Section 5 : CTA Final */}
+      <section className="py-16 md:py-24 px-4 bg-marine text-white">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-2xl md:text-4xl font-bold mb-6">
+            Prêt à monétiser votre carnet d&apos;adresses ?
+          </h2>
+          <p className="text-lg md:text-xl text-gray-200 mb-10 leading-relaxed">
+            Inscrivez-vous dès maintenant pour activer votre compte et commencer
+            à signaler vos premiers projets.
+          </p>
+          <a
+            href={ctaLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-orange hover:bg-orange-dark text-white font-bold text-lg md:text-xl px-10 md:px-14 py-4 md:py-5 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl inline-block"
+          >
+            S&apos;inscrire sur ProperTips via Immo-Relais
+          </a>
+        </div>
+      </section>
+
+      {/* Section 6 : FAQ */}
       <section className="py-16 md:py-24 px-4 bg-white">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl md:text-4xl font-bold text-center text-marine mb-4">
@@ -248,27 +279,6 @@ export default function OpportunitePage() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Section 6 : CTA Final */}
-      <section className="py-16 md:py-24 px-4 bg-marine text-white">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl md:text-4xl font-bold mb-6">
-            Prêt à monétiser votre carnet d&apos;adresses ?
-          </h2>
-          <p className="text-lg md:text-xl text-gray-200 mb-10 leading-relaxed">
-            Inscrivez-vous dès maintenant pour activer votre compte et commencer
-            à signaler vos premiers projets.
-          </p>
-          <a
-            href={ctaLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-orange hover:bg-orange-dark text-white font-bold text-lg md:text-xl px-10 md:px-14 py-4 md:py-5 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl inline-block"
-          >
-            S&apos;inscrire sur ProperTips via Immo-Relais
-          </a>
         </div>
       </section>
     </main>
