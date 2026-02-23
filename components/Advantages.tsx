@@ -8,7 +8,7 @@ export default function Advantages() {
   const advantages = [
     {
       title: "1er Réseau immobilier Français",
-      description: "IAD est le leader français en nombre d'agents et en chiffre d'affaires. Cette puissance de réseau maximise vos chances de vendre rapidement ou de trouver le bien idéal !",
+      description: "Notre réseau d'agents partenaire est le leader français en nombre d'agents et en chiffre d'affaires. Cette puissance de réseau maximise vos chances de vendre rapidement ou de trouver le bien idéal !",
       icon: "🏆"
     },
     {

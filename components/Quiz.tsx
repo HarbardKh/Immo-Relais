@@ -275,7 +275,7 @@ export default function Quiz({ sourceRef }: QuizProps) {
               Obtenez une estimation gratuite
             </h2>
             <p className="text-gray-600">
-              Répondez a quelques questions sur votre projet d'achat ou vente immobilière pour être recontacté par un expert IAD de votre ville
+              Répondez a quelques questions sur votre projet d'achat ou vente immobilière pour être recontacté par un expert de notre réseau partenaire dans votre ville
             </p>
           </div>
 

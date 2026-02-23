@@ -25,10 +25,10 @@ export default function TrustSection() {
 
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8">
             <div className="text-4xl mb-4">🏆</div>
-            <h3 className="text-2xl font-bold mb-4">Le Réseau IAD</h3>
+            <h3 className="text-2xl font-bold mb-4">Notre Réseau Partenaire</h3>
             <p className="text-gray-200 leading-relaxed">
-              <strong className="text-orange">IAD est le 1er réseau de mandataires immobiliers français</strong>{' '}
-              en nombre d'agents et en chiffre d'affaires. Cette force de réseau est un atout majeur 
+              <strong className="text-orange">Notre réseau partenaire est le 1er réseau de mandataires immobiliers français</strong>{' '}
+              en nombre d'agents et en chiffre d'affaires. Cette force de réseau est un atout majeur
               pour réussir votre vente ou trouver le bien recherché !
             </p>
           </div>
