@@ -8,7 +8,7 @@ export default function Advantages() {
   const advantages = [
     {
       title: "1er Réseau immobilier Français",
-      description: "Notre réseau d'agents partenaire est le leader français en nombre d'agents et en chiffre d'affaires. Cette puissance de réseau maximise vos chances de vendre rapidement ou de trouver le bien idéal !",
+      description: "Leader français en nombre d'agents et en chiffre d'affaires, cette puissance de réseau maximise vos chances de réussite !",
       icon: "🏆"
     },
     {
